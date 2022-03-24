@@ -61,9 +61,6 @@ public class SimpleCalculator {
 				somename = eq[i];
 				System.out.println("Give me two numbers to " + eq[i] + "!");
 				System.out.println("-------------------------------------");
-			} else {
-				System.out.println("Oh no! Something went wrong. Maybe it is a typo?");
-				startup();
 			}
 		}
 		return somename;
